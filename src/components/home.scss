@@ -1,0 +1,74 @@
+
+
+.homeContainer1 {
+  display: flex;
+  height: 90vh;
+}
+
+.navigationMenu {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.navigationMenu h5 {
+  margin-left: 5vw;
+}
+
+.logoContainer {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer img {
+ width: 350px;
+ height: 350px;
+ object-fit: scale-down;
+}
+
+
+.socialLinks {
+  // background-color: red;
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+
+
+
+
+// .nameCointainer {
+//   width: 25vw;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+// .socialLinks {
+//   display: flex;
+//   flex-direction: row;
+//   width: 100%;
+//   justify-content: space-around;
+// }
+
+// .affixContainer {
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+
+// .navigationMenu a {
+//   color: cornflowerblue;
+//   text-decoration-line : none;
+// }
+
+// .nameCointainer a {
+//   color: cornflowerblue;
+//   text-decoration-line : none;
+// }

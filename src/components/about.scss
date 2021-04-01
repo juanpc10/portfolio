@@ -1,0 +1,68 @@
+
+
+.aboutPage {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.pageTitle {
+  // background-color: red;
+  display: flex;
+  // justify-content: center;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.aboutContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoContainer2 {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer2 img {
+ width: 150px;
+ height: 150px;
+ object-fit: scale-down;
+}
+
+
+
+.logoContainer3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logoContainer3 img {
+ width: 150px;
+ height: 150px;
+ object-fit: scale-down;
+}
+
+#buckeye {
+  margin-bottom: 20px;
+}
+
+.aboutContent {
+  width: 75vw;
+  height: 100%;
+}
+
+.aboutText {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  height: 100%;
+}
+
+.affixContainer {
+  display: flex;
+  justify-content: flex-end;
+}

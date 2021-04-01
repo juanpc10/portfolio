@@ -1,16 +1,26 @@
+.expNavigationMenu {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.expNavigationMenu h5 {
+  margin-left: 5vw;
+}
 
 .experienceContainer {
   display: flex;
 }
 
-.carouselContainer {
-  height: 100%;
+.projectsContainer {
+  height: 93vh;
+  overflow-y: scroll;
 }
 
 .projectCategory {
-  // background-color: red;
   width: 100%;
-  margin-left: 100px;
   margin-top: 50px;
 }
 
@@ -18,14 +28,14 @@
   display: flex;
   flex-direction: row;
   width: 85vw;
-  height: 100%;
-  overflow: scroll;
-  // background-color:red;
-
+  height: 320px;
+  overflow-x: scroll;
 }
 
 .singleproject {
   width: 400px;
-  margin-left: 50px;
+}
 
+#todolist {
+  margin-left: 100px;
 }

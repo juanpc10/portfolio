@@ -92,32 +92,32 @@ function Experience() {
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 350 }} cover={<img alt="example" src={NetflixClone} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 347 }} cover={<img alt="example" src={NetflixClone} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Netflix Clone" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 310 }} cover={<img alt="example" src={SoccerApp} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 314 }} cover={<img alt="example" src={SoccerApp} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Soccer App" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={DragNDrop} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 308 }} cover={<img alt="example" src={DragNDrop} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Drag And Drop Team" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 250 }} cover={<img alt="example" src={Tictactoe} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 263 }} cover={<img alt="example" src={Tictactoe} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Tic Tac Toe Game" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 450 }} cover={<img alt="example" src={HeroesApp} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 479 }} cover={<img alt="example" src={HeroesApp} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Heroes App" description="This is the description"/>
               </Card>
             </div>      
             <div id="todolist" className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 250 }} cover={<img alt="example" src={TodoList} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 262 }} cover={<img alt="example" src={TodoList} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="To Do List" description="This is the description"/>
               </Card>
             </div>
@@ -133,17 +133,17 @@ function Experience() {
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ height: 300, width:300 }} cover={<img alt="example" src={Instagram} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width:306 }} cover={<img alt="example" src={Instagram} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Instagram App" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 320 }} cover={<img alt="example" src={Twitter} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 326 }} cover={<img alt="example" src={Twitter} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Twitter App" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 270 }} cover={<img alt="example" src={Prospects} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 274 }} cover={<img alt="example" src={Prospects} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Prospects App" description="This is the description"/>
               </Card>
             </div>
@@ -170,33 +170,33 @@ function Experience() {
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={GraphQL} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 294 }} cover={<img alt="example" src={GraphQL} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="GraphQL" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 380 }} cover={<img alt="example" src={Koa} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 378 }} cover={<img alt="example" src={Koa} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Koa" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={Postgresql} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 294 }} cover={<img alt="example" src={Postgresql} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="SQL" description="This is the description"/>
               </Card>
             </div>
             
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 330 }} cover={<img alt="example" src={Mongodb} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 315 }} cover={<img alt="example" src={Mongodb} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Mongo DB" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 250 }} cover={<img alt="example" src={Mongoose} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 239 }} cover={<img alt="example" src={Mongoose} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Mongoose" description="This is the description"/>
               </Card>
             </div>  
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 260 }} cover={<img alt="example" src={Redis} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 249 }} cover={<img alt="example" src={Redis} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Redis" description="This is the description"/>
               </Card>
             </div>
@@ -266,17 +266,17 @@ function Experience() {
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 250 }} cover={<img alt="example" src={Bigonotation} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 252 }} cover={<img alt="example" src={Bigonotation} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Sorting Algorithms" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 250 }} cover={<img alt="example" src={Hashtable} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 255 }} cover={<img alt="example" src={Hashtable} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Hash Tables" description="This is the description"/>
               </Card>
             </div>
             <div className="singleproject">
-              <Card hoverable bordered={false} size="small" style={{ width: 430 }} cover={<img alt="example" src={Linkedlist} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+              <Card hoverable bordered={false} size="small" style={{ width: 436 }} cover={<img alt="example" src={Linkedlist} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Linked Lists" description="This is the description"/>
               </Card>
             </div>

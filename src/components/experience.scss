@@ -34,8 +34,23 @@
 
 .singleproject {
   width: 400px;
+  margin-right: 40px;
+  margin-left: 20px;
 }
 
-// #todolist {
-//   margin-left: 100px;
-// }
+#todolist {
+  margin-left: 100px;
+  padding-right: 10px;
+}
+
+#candidates {
+  padding-right: 10px;
+}
+
+#redis {
+  padding-right: 10px;
+}
+
+#linkedlist {
+  padding-right: 450px; 
+}

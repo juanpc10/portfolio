@@ -147,7 +147,7 @@ function Experience() {
                 <Meta title="Prospects App" description="This is the description"/>
               </Card>
             </div>
-            <div className="singleproject">
+            <div id="candidates" className="singleproject">
               <Card hoverable bordered={false} size="small" style={{ width: 340 }} cover={<img alt="example" src={Candidates} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Candidates App" description="This is the description"/>
               </Card>
@@ -195,7 +195,7 @@ function Experience() {
                 <Meta title="Mongoose" description="This is the description"/>
               </Card>
             </div>  
-            <div className="singleproject">
+            <div id="redis" className="singleproject">
               <Card hoverable bordered={false} size="small" style={{ width: 249 }} cover={<img alt="example" src={Redis} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Redis" description="This is the description"/>
               </Card>
@@ -275,7 +275,7 @@ function Experience() {
                 <Meta title="Hash Tables" description="This is the description"/>
               </Card>
             </div>
-            <div className="singleproject">
+            <div  id="linkedlist" className="singleproject">
               <Card hoverable bordered={false} size="small" style={{ width: 436 }} cover={<img alt="example" src={Linkedlist} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                 <Meta title="Linked Lists" description="This is the description"/>
               </Card>

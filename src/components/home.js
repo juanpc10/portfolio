@@ -43,14 +43,14 @@ function Home() {
           <Link to="/"><h5>Home</h5></Link>
           <Link to="/about"><h5>About</h5></Link>
           <Link to="/experience"><h5>Experience</h5></Link>
-          <Link to="/contact"><h5>Contact</h5></Link>
+          <Link to="contact"><h5>Contact</h5></Link>
         </div>
 
         <div className="logoContainer">
           <img src={logo} alt='juanLogo'></img>
           <div className="socialLinks">
-            <a onClick="window.open('https://www.linkedin.com/in/juanpc10/')" ><LinkedinOutlined /></a>
-            <a><GithubOutlined /></a>
+            <a href="https://www.linkedin.com/in/juanpc10/" target="_blank" rel="noopener noreferrer"><LinkedinOutlined /></a>
+            <a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>
           </div>
         </div>
 

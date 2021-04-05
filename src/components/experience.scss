@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .expNavigationMenu h5 {
@@ -12,11 +12,36 @@
 
 .experienceContainer {
   display: flex;
+  height: 93vh;
 }
+
+.projectsPageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoExpContainer {
+  width: 80vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.logoExpContainer img {
+ width: 150px;
+ height: 150px;
+ object-fit: scale-down;
+}
+
+.projectsScrollContainer {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+
 
 .projectsContainer {
   height: 93vh;
-  overflow-y: scroll;
 }
 
 .projectCategory {
@@ -53,4 +78,36 @@
 
 #linkedlist {
   padding-right: 450px; 
+}
+
+
+.contactButton {
+  color: white;
+  background-color: rgb(68, 112, 255);
+  border: none;
+}
+
+// .contactButton:hover {
+//   color: white;
+//   background-color: red;
+//   border: none;
+// }
+
+
+
+.footer {
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+}
+
+.footer p {
+  font-size: .6rem;
+}
+
+
+
+.popoverContent {
+  // background-color: red;
+  // width: 400px
 }

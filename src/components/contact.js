@@ -62,9 +62,13 @@ function Contact() {
 
       </div>
 
-      <div>
-        <p>Footer</p>
+      <div className="footerSection">
+        <div className="footer">
+          <p>Copyright © 2021 Juan Carrillo Dev</p>
+          <p>Made with React</p>
+        </div>
       </div>
+      
     </div>
   );
 }

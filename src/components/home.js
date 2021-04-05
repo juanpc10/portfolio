@@ -49,15 +49,17 @@ function Home() {
         <div className="logoContainer">
           <img src={logo} alt='juanLogo'></img>
           <div className="socialLinks">
-
-            <p><LinkedinOutlined /></p>
-            <p><GithubOutlined /></p>
+            <a onClick="window.open('https://www.linkedin.com/in/juanpc10/')" ><LinkedinOutlined /></a>
+            <a><GithubOutlined /></a>
           </div>
         </div>
 
       </div>
-      <div>
-        <p>Footer</p>
+      <div className="footerSection">
+        <div className="footer">
+          <p>Copyright © 2021 Juan Carrillo Dev</p>
+          <p>Made with React</p>
+        </div>
       </div>
 
 

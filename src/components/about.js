@@ -85,21 +85,21 @@ function About() {
             </div>
           </div>
 
-          <div className="affixContainer">
-            <Affix offsetBottom={bottom}>
-              <Link to="/contact"><Button type="primary"> Contact juanp23carrillo@gmail.com</Button></Link>
-              {/* <Button type="primary" onClick={() => setBottom(bottom + 10)}>
-                Contact juanp23carrillo@gmail.com
-              </Button> */}
-            </Affix>
-          </div>
-
+        </div>
+      </div>
+      <div className="footerSection">
+        <div className="affixContainer">
+          <Affix offsetBottom={bottom}>
+            <Link to="/contact"><Button className="contactButton"> Contact juanp23carrillo@gmail.com</Button></Link>
+          </Affix>
+        </div>
+        <div className="footer">
+          <p>Copyright © 2021 Juan Carrillo Dev</p>
+          <p>Made with React</p>
         </div>
       </div>
       
-      <div>
-        <p>Footer</p>
-      </div>
+  
     </div>
   );
 }

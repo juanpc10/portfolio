@@ -62,16 +62,125 @@ function Experience() {
 
   const [isModalVisible, setIsModalVisible] = useState(false);
 
-  const showModal = () => {
+  const showModal1 = () => {
     setIsModalVisible(true);
+    Modal.info({
+      title: 'NATURL',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      content: (
+        <div>
+          <p>Fully functional JAM stack ecommerce store with Stripe and Firebase integration.</p>
+          <p>Tech Stack: React, Stripe, Firebase</p>
+        </div>
+      ),
+    });
   };
-
-  const handleOk = () => {
-    setIsModalVisible(false);
+  const showModal2 = () => {
+    setIsModalVisible(true);
+    Modal.info({
+      title: 'Rewrams',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      content: (
+        <div>
+          <p>Rewrams</p>
+          <p>Tech Stack: React</p>
+        </div>
+      ),
+    });
   };
-
-  const handleCancel = () => {
-    setIsModalVisible(false);
+  const showModal3 = () => {
+    setIsModalVisible(true);
+    Modal.info({
+      title: 'Rewrams',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      content: (
+        <div>
+          <p>Rewrams</p>
+          <p>Tech Stack: React</p>
+        </div>
+      ),
+    });
+  };
+  const showModal4 = () => {
+    setIsModalVisible(true);
+    Modal.info({
+      title: 'Rewrams',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      content: (
+        <div>
+          <p>Rewrams</p>
+          <p>Tech Stack: React</p>
+        </div>
+      ),
+    });
+  };
+  const showModal5 = () => {
+    setIsModalVisible(true);
+    Modal.info({
+      title: 'Rewrams',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      content: (
+        <div>
+          <p>Rewrams</p>
+          <p>Tech Stack: React</p>
+        </div>
+      ),
+    });
+  };
+  const showModal6 = () => {
+    setIsModalVisible(true);
+    Modal.info({
+      title: 'Rewrams',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      content: (
+        <div>
+          <p>Rewrams</p>
+          <p>Tech Stack: React</p>
+        </div>
+      ),
+    });
+  };
+  const showModal7 = () => {
+    setIsModalVisible(true);
+    Modal.info({
+      title: 'Rewrams',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      content: (
+        <div>
+          <p>Rewrams</p>
+          <p>Tech Stack: React</p>
+        </div>
+      ),
+    });
+  };
+  const showModal8 = () => {
+    setIsModalVisible(true);
+    Modal.info({
+      title: 'Rewrams',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      content: (
+        <div>
+          <p>Rewrams</p>
+          <p>Tech Stack: React</p>
+        </div>
+      ),
+    });
   };
 
   return (
@@ -98,49 +207,44 @@ function Experience() {
               <h3>Front End</h3>
             </div>
             <div className="projects">
-              <div className="singleproject">
-                <Card onClick={showModal} hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={Naturl} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<PictureOutlined />,]}>
-                  <Meta title="NATURL" description="Ecommerce store"/>
-                </Card>
-                <Modal footer={[]} title="NATURL" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-                  <p>Fully functional JAM stack ecommerce store with Stripe and Firebase integration.</p>
-                  <p>Tech Stack: React, Stripe, Firebase</p>
-                  {/* <p>Some contents...</p> */}
-                </Modal>
-              </div>
-              <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 299}} cover={<img alt="example" src={Rewrams} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Rewrams" description="Web application with dashboard"/>
+              <div className="singleproject">        
+                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img onClick={showModal1} alt="example" src={Naturl} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<PictureOutlined />,]}>
+                  <Meta onClick={showModal1} title="NATURL" description="Ecommerce store"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 347 }} cover={<img alt="example" src={NetflixClone} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Netflix Clone" description="Web application with API integration"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 299}} cover={<img onClick={showModal2} alt="example" src={Rewrams} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal2} title="Rewrams" description="Web application with dashboard"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 314 }} cover={<img alt="example" src={SoccerApp} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Soccer App" description="Front end app with state management"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 347 }} cover={<img onClick={showModal3} alt="example" src={NetflixClone} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal3} title="Netflix Clone" description="Web application with API integration"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 308 }} cover={<img alt="example" src={DragNDrop} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="World's Best Fighters" description="Front end app with draggable functionality"/>
+                <Card  hoverable bordered={false} size="small" style={{ width: 314 }} cover={<img onClick={showModal4} alt="example" src={SoccerApp} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal4} title="Soccer App" description="Front end app with state management"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 263 }} cover={<img alt="example" src={Tictactoe} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Tic Tac Toe Game" description="Application with game logic"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 308 }} cover={<img onClick={showModal5} alt="example" src={DragNDrop} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal5} title="World's Best Fighters" description="Front end app with draggable functionality"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 479 }} cover={<img alt="example" src={HeroesApp} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Heroes App" description="Front end application built with Angular"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 263 }} cover={<img onClick={showModal6} alt="example" src={Tictactoe} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal6} title="Tic Tac Toe Game" description="Application with game logic"/>
                 </Card>
-              </div>      
+              </div>
+              <div className="singleproject">
+                <Card hoverable bordered={false} size="small" style={{ width: 479 }} cover={<img onClick={showModal7} alt="example" src={HeroesApp} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal7} title="Heroes App" description="Front end application built with Angular"/>
+                </Card>
+              </div>
               <div id="todolist" className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 262 }} cover={<img alt="example" src={TodoList} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="To Do List" description="Front end app with redux "/>
+                <Card hoverable bordered={false} size="small" style={{ width: 262 }} cover={<img alt="example" src={TodoList} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="To Do List" description="Front end app with redux "/>
                 </Card>
               </div>
             </div>
@@ -150,28 +254,28 @@ function Experience() {
             </div>
             <div className="projects">
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={CalendarApp} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Calendar App" description="Full stack app for checking events by date"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img onClick={showModal8} alt="example" src={CalendarApp} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Calendar App" description="Full stack app for checking events by date"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width:306 }} cover={<img alt="example" src={Instagram} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Instagram App" description="Application with admin panel"/>
+                <Card hoverable bordered={false} size="small" style={{ width:306 }} cover={<img onClick={showModal8} alt="example" src={Instagram} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Instagram App" description="Application with admin panel"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 326 }} cover={<img alt="example" src={Twitter} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Twitter App" description="Testing for Twitter data analysis app"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 326 }} cover={<img onClick={showModal8} alt="example" src={Twitter} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Twitter App" description="Testing for Twitter data analysis app"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 274 }} cover={<img alt="example" src={Prospects} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Prospects App" description="CRM app for prospects"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 274 }} cover={<img onClick={showModal8} alt="example" src={Prospects} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Prospects App" description="CRM app for prospects"/>
                 </Card>
               </div>
               <div id="candidates" className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 340 }} cover={<img alt="example" src={Candidates} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Candidates App" description="Ruby on rails app for candidates"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 340 }} cover={<img onClick={showModal8} alt="example" src={Candidates} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Candidates App" description="Ruby on rails app for candidates"/>
                 </Card>
               </div>
                   
@@ -182,44 +286,44 @@ function Experience() {
             </div>
             <div className="projects">
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 317 }} cover={<img alt="example" src={Node} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Node Chatbot" description="Chatbot application with node backend"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 317 }} cover={<img onClick={showModal8} alt="example" src={Node} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Node Chatbot" description="Chatbot application with node backend"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 360 }} cover={<img alt="example" src={Express} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Express Chatbot" description="Chatbot application with express backend"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 360 }} cover={<img onClick={showModal8} alt="example" src={Express} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Express Chatbot" description="Chatbot application with express backend"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 294 }} cover={<img alt="example" src={GraphQL} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="World Cup App" description="Soccer data structuring application"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 294 }} cover={<img onClick={showModal8} alt="example" src={GraphQL} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="World Cup App" description="Soccer data structuring application"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 378 }} cover={<img alt="example" src={Koa} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Koa Chatbot" description="Chatbot application with node.js backend"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 378 }} cover={<img onClick={showModal8} alt="example" src={Koa} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Koa Chatbot" description="Chatbot application with node.js backend"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 294 }} cover={<img alt="example" src={Postgresql} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="SQL Chatbot" description="Chatbot application with postgres db"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 294 }} cover={<img onClick={showModal8} alt="example" src={Postgresql} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="SQL Chatbot" description="Chatbot application with postgres db"/>
                 </Card>
               </div>
               
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 315 }} cover={<img alt="example" src={Mongodb} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Mongo DB Chatbot" description="Chatbot application with Mongodb"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 315 }} cover={<img onClick={showModal8} alt="example" src={Mongodb} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Mongo DB Chatbot" description="Chatbot application with Mongodb"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 239 }} cover={<img alt="example" src={Mongoose} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Mongoose Chatbot" description="Chatbot app with Mongoose"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 239 }} cover={<img onClick={showModal8} alt="example" src={Mongoose} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Mongoose Chatbot" description="Chatbot app with Mongoose"/>
                 </Card>
               </div>  
               <div id="redis" className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 249 }} cover={<img alt="example" src={Redis} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Redis Chatbot" description="Chatbot app with redis"/>
+                <Card  hoverable bordered={false} size="small" style={{ width: 249 }} cover={<img onClick={showModal8} alt="example" src={Redis} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Redis Chatbot" description="Chatbot app with redis"/>
                 </Card>
               </div>
 
@@ -283,31 +387,27 @@ function Experience() {
             </div>
             <div className="projects">
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 390 }} cover={<img alt="example" src={CodingQueens} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Coding Queens Problem" description="Algorithm solution for coding queens problem"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 390 }} cover={<img onClick={showModal8} alt="example" src={CodingQueens} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Coding Queens Problem" description="Algorithm solution for coding queens problem"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 252 }} cover={<img alt="example" src={Bigonotation} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Sorting Algorithms" description="Sorting methods analysis"/>
+                <Card  hoverable bordered={false} size="small" style={{ width: 252 }} cover={<img onClick={showModal8} alt="example" src={Bigonotation} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Sorting Algorithms" description="Sorting methods analysis"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 255 }} cover={<img alt="example" src={Hashtable} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Hash Tables" description="Hash table function representation"/>
+                <Card  hoverable bordered={false} size="small" style={{ width: 255 }} cover={<img onClick={showModal8} alt="example" src={Hashtable} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Hash Tables" description="Hash table function representation"/>
                 </Card>
               </div>
               <div  id="linkedlist" className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 436 }} cover={<img alt="example" src={Linkedlist} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Linked Lists" description="Linked list variations"/>
+                <Card  hoverable bordered={false} size="small" style={{ width: 436 }} cover={<img onClick={showModal8} alt="example" src={Linkedlist} />} actions={[<FundProjectionScreenOutlined />,<a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta onClick={showModal8} title="Linked Lists" description="Linked list variations"/>
                 </Card>
               </div>
-              
             </div>
-
           </div>
-
-
         </div>
       </div>
 

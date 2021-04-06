@@ -16,10 +16,10 @@ function Contact() {
     <div>
       <div className="contactPage">
         <div className="navigationMenu">
-          <Link to="/"><h5>Home</h5></Link>
-          <Link to="/about"><h5>About</h5></Link>
-          <Link to="/experience"><h5>Experience</h5></Link>
-          <Link to="/contact"><h5>Contact</h5></Link>
+          <Link to="/"><h4>Home</h4></Link>
+          <Link to="/about"><h4>About</h4></Link>
+          <Link to="/experience"><h4>Experience</h4></Link>
+          <Link to="/contact"><h4>Contact</h4></Link>
         </div>
         <div className="contactContainer">
           <div className="logoContainer2">
@@ -44,7 +44,8 @@ function Contact() {
                   <h4>Secondary form of communication:</h4>
                 </div>
                 <div className="secondaryInfo">
-                <p><PhoneOutlined /> +1(928) 4874 677</p><p><LinkedinOutlined />Linkedin</p>
+                  <p><PhoneOutlined /> +1(928) 4874 677</p>
+                  <a href="https://www.linkedin.com/in/juanpc10/" target="_blank" rel="noopener noreferrer"><LinkedinOutlined /> Linkedin</a>
                 </div>
               </div>
 

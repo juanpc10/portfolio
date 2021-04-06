@@ -1,51 +1,8 @@
 
-// .homeContainer {
-//   display: flex;
-//   height: 90vh;
-
-// }
-
-// .navigationMenu {
-//   width: 20vw;
-//   height: 90vh;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-// }
-
-// .navigationMenu h5 {
-//   margin-left: 50px;
-// }
-
 .contactPage {
   display: flex;
-  margin-bottom: 100px;
+  height: 97vh;
 }
-
-
-// .carouselContainer {
-//   width: 100%;
-//   height: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-// }
-
-
-// .nameCointainer {
-//   width: 25vw;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// }
-
-// .socialLinks {
-//   display: flex;
-//   flex-direction: row;
-//   width: 100%;
-//   justify-content: space-around;
-// }
 
 .contactInfo {
   margin-top: 100px;
@@ -53,18 +10,10 @@
   justify-content: center;
 }
 
-// .contactInfo p {
-//   margin-bottom: 50px;
-// }
-
 .contactTitle {
   display: flex;
   justify-content: center;
 }
-
-// .contactInfo h4 {
-//  margin-bottom: 20px;
-// }
 
 .secondaryInfo {
   display: flex;
@@ -72,23 +21,22 @@
   width: 300px;
 }
 
+.secondaryInfo a {
+  color: black;
+}
+
+.secondaryInfo a:hover {
+  color: rgb(68, 112, 255);
+}
+
 .paragraph {
   margin-bottom: 30px;
 }
 
-
-.affixContainer {
-  display: flex;
-  justify-content: flex-end;
+.navigationMenu h4 {
+  margin-left: 5vw;
 }
 
-
-.navigationMenu a {
-  color: cornflowerblue;
-  text-decoration-line : none;
-}
-
-.nameCointainer a {
-  color: cornflowerblue;
-  text-decoration-line : none;
+.navigationMenu h4:hover {
+  color: rgb(68, 112, 255);
 }

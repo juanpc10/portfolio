@@ -86,7 +86,7 @@ function Experience() {
       maskClosable: true,
       content: (
         <div>
-          <p>Application for clients to check how many users have shared and tagged their business instagram account. Users receive an automated coupon depending on the campaign settings customizable in Rewrams frontend platform. Clients can check how effective their coupon campaign has performed and change the coupon percentage as needed. The application is fully functional, to check the demo you can access with the username 'pablo@pablo.com' or create a new user.</p>
+          <p>Application for clients to check how many users have shared and tagged their business instagram account. Users receive an automated coupon depending on the campaign settings customizable in Rewrams frontend platform. Clients can check how effective their coupon campaign has performed and change the coupon percentage as needed. The application is fully functional, to check the demo you can access with the username 'pablo@pablo.com' and password 'pablopablo' or create a new user.</p>
           <p>Tech Stack: React, Passport for authentication in the frontend, and redux for state management.</p>
         </div>
       ),
@@ -431,10 +431,10 @@ function Experience() {
     <div>
       <div className="experienceContainer">
         <div className="expNavigationMenu">
-          <Link to="/"><h5>Home</h5></Link>
-          <Link to="/about"><h5>About</h5></Link>
-          <Link to="/experience"><h5>Experience</h5></Link>
-          <Link to="/contact"><h5>Contact</h5></Link>
+          <Link to="/"><h4>Home</h4></Link>
+          <Link to="/about"><h4>About</h4></Link>
+          <Link to="/experience"><h4>Experience</h4></Link>
+          <Link to="/contact"><h4>Contact</h4></Link>
         </div>
 
         <div className="projectsPageContainer">
@@ -560,7 +560,7 @@ function Experience() {
                   <Meta onClick={showModal19} title="Mongo DB Chatbot" description="Chatbot application with Mongodb"/>
                 </Card>
               </div>
-              <div className="singleproject">
+              <div id="mongoose" className="singleproject">
                 <Card hoverable bordered={false} size="small" style={{ width: 239 }} cover={<img onClick={showModal20} alt="example" src={Mongoose} />} actions={[<a href="https://github.com/juanpc10/mongooseChatbot" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>]}>
                   <Meta onClick={showModal20} title="Mongoose Chatbot" description="Chatbot app with Mongoose"/>
                 </Card>
@@ -626,7 +626,7 @@ function Experience() {
             </div>
             <div className="projects">
               <div className="singleproject">
-                <Card  bordered={false} size="small" style={{ width: 390 }} cover={<img onClick={showModal21} alt="example" src={CodingQueens} />} actions={[<a href="https://github.com/juanpc10/codingQueens" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>]}>
+                <Card hoverable bordered={false} size="small" style={{ width: 390 }} cover={<img onClick={showModal21} alt="example" src={CodingQueens} />} actions={[<a href="https://github.com/juanpc10/codingQueens" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>]}>
                   <Meta onClick={showModal21} title="Coding Queens Problem" description="Algorithm solution for coding queens problem"/>
                 </Card>
               </div>

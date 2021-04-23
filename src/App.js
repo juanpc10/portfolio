@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.scss';
 import Home from './components/home';
-import About from './components/about';
+import About from './components/about2';
 import Experience from './components/experience';
 import Contact from './components/contact';
 
@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <Router primary={false}>
         <Home path="/" />
-        <About path="/about" />
-        <Experience path="/experience" />
+        <Experience path="/about" />
+        <About path="/experience" />
         <Contact path="/contact" />
       </Router>
     </div>

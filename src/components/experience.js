@@ -27,6 +27,13 @@ import Mongodb from '../images/mongodb.png';
 import Mongoose from '../images/mongoose.jpeg';
 import Redis from '../images/redis.png';
 
+import MishiMishis from '../images/mishimishis2.png';
+import NuevaVida from '../images/nuevavida2.jpg';
+import Intromar from '../images/intromar2.jpg';
+import Weiqilabs from '../images/weiqi2.png';
+import Causeffct from '../images/causeffct2.jpg';
+import Rewrams2 from '../images/rewrams2.png';
+
 import CodingQueens from '../images/codingqueens.jpeg';
 import Bigonotation from '../images/bigonotation.jpeg';
 import Hashtable from '../images/hashtable.png';
@@ -570,11 +577,11 @@ function Experience() {
 
             
 
-            {/* <div className="projectCategory">
-              <h3>Project Management</h3>
+            <div className="projectCategory">
+              <h3>Web Development</h3>
             </div>
             <div className="projects">
-              <div className="singleproject">
+              {/* <div className="singleproject">
                 <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                   <Meta title="Mr. Pancake" description="This is the description"/>
                 </Card>
@@ -588,38 +595,38 @@ function Experience() {
                 <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                   <Meta title="Kinza Gasolineras" description="This is the description"/>
                 </Card>
-              </div>
+              </div> */}
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Nueva Vida Boards" description="This is the description"/>
-                </Card>
-              </div>
-              <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Nutrimar Corporate" description="This is the description"/>
-                </Card>
-              </div>
-              <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+                <Card hoverable bordered={false} size="small" style={{ width: 150 }} cover={<img alt="example" src={MishiMishis} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                   <Meta title="Mishi Mishis" description="This is the description"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+                <Card hoverable bordered={false} size="small" style={{ width: 180 }} cover={<img alt="example" src={NuevaVida} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta title="Nueva Vida Boards" description="This is the description"/>
+                </Card>
+              </div>
+              <div className="singleproject">
+                <Card hoverable bordered={false} size="small" style={{ width: 320 }} cover={<img alt="example" src={Intromar} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+                  <Meta title="Intromar Corporate" description="This is the description"/>
+                </Card>
+              </div>
+              <div className="singleproject">
+                <Card hoverable bordered={false} size="small" style={{ width: 200 }} cover={<img alt="example" src={Weiqilabs} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                   <Meta title="Weiqilabs" description="This is the description"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+                <Card hoverable bordered={false} size="small" style={{ width: 200 }} cover={<img alt="example" src={Causeffct} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                   <Meta title="Cause Effct" description="This is the description"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small"  style={{ width: 300 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
+                <Card hoverable bordered={false} size="small"  style={{ width: 200 }} cover={<img alt="example" src={Rewrams2} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
                   <Meta title="Rewrams" description="This is the description"/>
                 </Card>
               </div>          
-            </div> */}
+            </div>
 
             <div className="projectCategory">
               <h3>Data Structures</h3>

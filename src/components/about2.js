@@ -15,7 +15,7 @@ import reactLogo from '../images/react-logo.jpeg';
 import nodeLogo from '../images/nodejs.png';
 import expressLogo from '../images/express.png';
 import graphqlLogo from '../images/graphql.png';
-import mysqlLogo from '../images/mysql2.png';
+import mysqlLogo from '../images/mysql3.png';
 import postgresqlLogo from '../images/postgresql.png';
 import mongooseLogo from '../images/mongoose.jpeg';
 import rubyLogo from '../images/ruby.png';
@@ -53,8 +53,7 @@ function About() {
           <p>Development using MVC or MVVM software architecture, software analysis and design.</p>
           <p>Creating stored procedures, functions, tables, indexes, and optimized queries using MySQL.</p>
           <p>Integration of REST API services, Redis, GitLab, NodeJS, MongoDB and analysis of customer requirements.</p>
-        </div>
-        
+        </div>       
       ),
     });
   };
@@ -76,8 +75,7 @@ function About() {
           <p>Responsible for contacting and showing progress to the client either in person or by video call depending on the project, as well as checking the progress of the programmers in the project day by day, and weekly; adjusting to customer changes and ensuring changes are correct for production. Correcting errors and prioritizing the necessary changes according to importance and required date, planning which tasks are the most important throughout the week and day by day. Record and document changes made, as well as the working hours of each programmer and the estimated hours for sprints.</p>
           <p>Northwest is a company dedicated to custom software development; from mobile applications to web pages, ecommerce stores, points of sales, custom internal systems, and mobile applications.</p>
           <p>Achievements: I managed to finish projects of which were already in an advanced stage of development and tight in terms of expectations and delivery dates.</p>
-        </div>
-        
+        </div>        
       ),
     });
   };
@@ -98,8 +96,7 @@ function About() {
           <p>Plan morning activities for me and partner, investigate how to perform the necessary functionalities, test the incorporation of the new functionalities, correct errors of the new functions, explore possible secondary problems, and in the evening have another meeting to discuss the next day's tasks and talk about the day's results. During the week we talk about short and long-term goals that are constantly being redefined depending on progress.</p>
           <p>Rewrams is a startup in its initial growth phase dedicated to the automation of coupon delivery depending on the interaction between Instagram users and the advertising they give to businesses connected to the application.</p>
           <p>Achievements: We were able to meet multiple goals of proposed functionalities such as automating our application by deploying microservices on the heroku platform. We were also able to prospect and obtain clients.</p>
-        </div>
-        
+        </div>        
       ),
     });
   };
@@ -120,8 +117,7 @@ function About() {
           <p>Carry out activities assigned at the beginning of the day after a meeting in the morning where the objectives of the activities are explained. Collaborate with the partner or assigned work team solving the problems of the tasks described. At the end of the day we meet again to discuss the problems and results of the assigned tasks.</p>
           <p>Codeworks enables programmers to collaborate on projects to learn a variety of software engineering topics while working as a team.</p>
           <p>Achievements: I managed to complete all tasks and projects on time as well as being recognized for having carried out one of the most innovative projects within my group.</p>
-        </div>
-        
+        </div>       
       ),
     });
   };
@@ -142,8 +138,28 @@ function About() {
           <p>Troubleshoot and debugged operational issues while interacting with customers and developers for the remittance of users transferring money from US to Mexico using cryptocurrency.</p>              
           <p>Bridge21 is a fintech company that connects the world's banking systems using cryptocurrency to create fast, efficient global money movement. </p>
           <p>Achievements: Helped improved conversion rate by 30%.</p>
-        </div>
-        
+        </div>      
+      ),
+    });
+  };
+  const showModal6 = () => {
+    setIsModalVisible(true);
+    Modal.info({
+      title: 'Lumber Broker',
+      icon: '',
+      keyboard: true,
+      maskClosable: true,
+      width: "50vw",
+      content: (
+        <div>
+           <div className="logoContainer3">
+            <img src={logoBuckeye} alt='Logo Buckeye'></img>
+            <h4>(Nov 2016- Oct 2017)</h4>
+          </div>
+          <p>Identifying and contacting prospects, negotiating freight rates, and monitoring international shipments of lumber from Canada, US, and Mexico.</p>
+          <p>Buckeye Pacific is a leading wood products wholesaler in Portland, Oregon.</p>
+          <p>Achievements: Helped save lumber brokers $400-$1,000 per shipment, 10 per month on average.</p>
+        </div>      
       ),
     });
   };
@@ -170,47 +186,36 @@ function About() {
             {/* <div className="headerAbout languages">
               <p>Expertise</p>
             </div> */}
-            <div className="technologies">
 
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 130 }} cover={<img src={mongoDB} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 110 }} cover={<img src={mongooseLogo} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 120 }} cover={<img src={expressLogo} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 100 }} cover={<img src={reactLogo} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 120 }} cover={<img src={nodeLogo} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 100 }} cover={<img src={graphqlLogo} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 90 }} cover={<img src={mysqlLogo} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 180 }} cover={<img src={postgresqlLogo} alt={'nice'} /> } ></Card>
-              </div>
-              {/* <div className="logos">
-                <Card onClick={showModal1}  bordered={false} size="small" style={{ width: 55 }} cover={<img src={htmlLogo} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logos">
-                <Card onClick={showModal1}  bordered={false} size="small" style={{ width: 100 }} cover={<img src={cssLogo} alt={'nice'} /> } ></Card>
-              </div> */}
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 70 }} cover={<img src={rubyLogo} alt={'nice'} /> } ></Card>
-              </div>
-              <div className="logoTech">
-                <Card bordered={false} size="small" style={{ width: 90 }} cover={<img src={sassLogo} alt={'nice'} /> } ></Card>
-              </div>
 
+          <div class="wrapper">
+            <div class="slider">
+              <div class="slide">
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 130 }} cover={<img src={mongoDB} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 110 }} cover={<img src={mongooseLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 120 }} cover={<img src={expressLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 100 }} cover={<img src={reactLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 120 }} cover={<img src={nodeLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 100 }} cover={<img src={graphqlLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 90 }} cover={<img src={mysqlLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 180 }} cover={<img src={postgresqlLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 70 }} cover={<img src={rubyLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 90 }} cover={<img src={sassLogo} alt={'nice'} /> } ></Card>
+              </div>
+              <div class="slide">
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 130 }} cover={<img src={mongoDB} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 110 }} cover={<img src={mongooseLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 120 }} cover={<img src={expressLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 100 }} cover={<img src={reactLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 120 }} cover={<img src={nodeLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 100 }} cover={<img src={graphqlLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 90 }} cover={<img src={mysqlLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 180 }} cover={<img src={postgresqlLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 70 }} cover={<img src={rubyLogo} alt={'nice'} /> } ></Card>
+                <Card bordered={false} size="small" style={{ marginRight:100, width: 90 }} cover={<img src={sassLogo} alt={'nice'} /> } ></Card>
+              </div>
             </div>
-
+        </div>
 
             <div className="headerAbout experience">
               <p>Professional Experience</p>
@@ -222,7 +227,6 @@ function About() {
                   <Meta description="Software Engineer" />
                 </Card>
               </div>
-
               <div className="logos">        
                 <Card onClick={showModal2}  bordered={false} size="small" style={{ width: 140 }} cover={<img src={logoNW} alt={'nice'} /> }  >
                   <Meta description="Project Manager/ Product Owner"/>
@@ -233,65 +237,16 @@ function About() {
                   <Meta   description="Lead Software Developer"/>
                 </Card>
               </div>
-
               <div className="logos">        
                 <Card onClick={showModal4}  bordered={false} size="small" style={{ width: 140 }} cover={<img src={logoCodeworks} alt={'nice'} /> }  >
                   <Meta  description="Software Engineer"/>
                 </Card>
               </div>
-
-              {/* <div className="logos">        
-                <Card onClick={showModal1}  bordered={false} size="small" style={{ width: 140 }} cover={<img src={logoCodeworks} alt={'nice'} /> }  >
-                  <Meta  description="Software Engineer"/>
-                </Card>
-              </div> */}
               <div className="logos">        
                 <Card onClick={showModal5}  bordered={false} size="small" style={{ width: 140 }} cover={<img src={logoBridge} alt={'nice'} /> }  >
                   <Meta  description="QA Support Analyst"/>
                 </Card>
               </div>
-              
-
-              
-              {/* <div className="logoContainer3">
-                <h4>Project Manager/ Product Owner (Nov 2020- Current)</h4>
-                <img src={logoNW} alt='Logo Northwest'></img>
-              </div>
-              <p>Responsible for contacting and showing progress to the client either in person or by video call depending on the project, as well as checking the progress of the programmers in the project day by day, and weekly; adjusting to customer changes and ensuring changes are correct for production. Correcting errors and prioritizing the necessary changes according to importance and required date, planning which tasks are the most important throughout the week and day by day. Record and document changes made, as well as the working hours of each programmer and the estimated hours for sprints.</p>
-              <p>Northwest is a company dedicated to custom software development; from mobile applications to web pages, ecommerce, points of sale, custom systems.</p>
-              <p>Achievements: I managed to finish projects of which were already in an advanced stage of development and tight in terms of expectations and delivery dates.</p>
-              
-              <div className="logoContainer3">
-                <img src={logoRewrams} alt='Logo Rewrams'></img>
-                <h4>Software Engineer (Jul 2020- Nov 2020)</h4>
-              </div>
-              <p>Plan morning activities for me and partner, investigate how to perform the necessary functionalities, test the incorporation of the new functionalities, correct errors of the new functions, explore possible secondary problems, and in the evening have another new meeting to discuss the next day's tasks and talk about the day's results. During the week we talk about weekly and long-term goals that are constantly being redefined depending on progress.</p>
-              <p>Rewrams is a startup in its initial growth phase dedicated to the automation of coupon delivery depending on the interaction between Instagram users and the advertising they give to businesses connected to the application.</p>
-              <p>Achievements: We were able to meet multiple goals of proposed functionalities such as automating our application by deploying microservices on the heroku platform. We were also able to prospect and obtain clients.</p>              
-              
-              <div className="logoContainer3">
-                <h4>Software Engineer (Jan 2020- Jul 2020)</h4>
-                <img src={logoCodeworks} alt='Logo Codeworks'></img>
-              </div>
-              <p>Carry out activities assigned at the beginning of the day after a meeting in the morning where the objectives of the activities are explained. Collaborate with the partner or assigned work team solving the problems of the tasks described. At the end of the day we meet again to discuss the problems and results of the assigned tasks.</p>
-              <p>Codeworks enables programmers to collaborate on projects to learn a variety of software engineering topics while working as a team.</p>
-              <p>Achievements: I managed to complete all tasks and projects on time as well as being recognized for having carried out one of the most innovative projects within my group.</p>
-
-              <div className="logoContainer3">
-                <img src={logoBridge} alt='Logo Bridge 21 inc.'></img>
-                <h4>Customer Service (Jan 2018- Jan 2019)</h4>
-              </div>
-              <p>Troubleshoot and debugged operational issues while interacting with customers and developers for the remittance of users transferring money from US to Mexico using cryptocurrency.</p>              
-              <p>Bridge21 is a fintech company that connects the world's banking systems using cryptocurrency to create fast, efficient global money movement. </p>
-              <p>Achievements: Helped improved conversion rate by 30%.</p>
-
-              <div className="logoContainer3" id="buckeye">
-                <h4>Freight Broker (Nov 2016- Oct 2017)</h4>
-                <img src={logoBuckeye} alt='Logo Buckeye Pacific LLC'></img>
-              </div>
-              <p>Identifying and contacting prospects, negotiating freight rates, and monitoring international shipments of lumber from Canada, US, and Mexico.</p>
-              <p>Buckeye Pacific is a leading wood products wholesaler in Portland, Oregon.</p>
-              <p>Achievements: Helped save lumber brokers $400-$1,000 per shipment, 10 per month on average.</p> */}
 
             </div>
           
@@ -305,6 +260,7 @@ function About() {
             <Link to="/contact"><Button className="contactButton"> Contact juanp23carrillo@gmail.com</Button></Link>
           </Affix>
         </div>
+        
         <div className="footer">
           <p>Copyright © 2021 Juan Carrillo Dev</p>
           <p>Made with React</p>

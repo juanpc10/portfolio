@@ -33,10 +33,13 @@
   margin-bottom: 30px;
 }
 
-.navigationMenu h4 {
-  margin-left: 5vw;
-}
 
-.navigationMenu h4:hover {
-  color: rgb(68, 112, 255);
+.contactimg {
+  background-image: url("1.png");
+  // background-color: red;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }

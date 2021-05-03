@@ -1,0 +1,15 @@
+.navigationMenu {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 3vw;
+}
+
+.navigationMenu h4 {
+  margin-left: 5vw;
+}
+
+.navigationMenu h4:hover {
+  color: rgb(68, 112, 255);
+}

@@ -2,31 +2,37 @@
 import React, { useState }  from 'react';
 import './contact.scss';
 
+import Menu from "./menu.js";
 import logo from '../images/juanLogo.png';
+// import Contactimg from '../images/contact.png'
 
-import { Router } from "@reach/router";
 import { Link } from "@reach/router";
-import { Affix, Button } from 'antd';
 
-import {GithubOutlined, LinkedinOutlined, MailOutlined, PhoneOutlined, WhatsAppOutlined, InstagramOutlined } from '@ant-design/icons';
+import {LinkedinOutlined, MailOutlined, PhoneOutlined } from '@ant-design/icons';
+
+import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
+
 
 function Contact() {
   const [bottom, setBottom] = useState(10);
   return (
     <div>
-      <div className="contactPage">
-        <div className="navigationMenu">
-          <Link to="/"><h4>Home</h4></Link>
-          <Link to="/about"><h4>About</h4></Link>
-          <Link to="/experience"><h4>Experience</h4></Link>
-          <Link to="/contact"><h4>Contact</h4></Link>
-        </div>
+      <div className="contactPage contactimg">
+
+        {/* <Slide left> */}
+          <Menu />
+        {/* </Slide> */}
+
         <div className="contactContainer">
-          <div className="logoContainer2">
-            <Link to="/">
-              <img src={logo} alt='juanLogo'></img>
-            </Link>
-          </div>
+
+          <Zoom>
+            <div className="logoContainer2">
+              <Link to="/">
+                <img src={logo} alt='juanLogo'></img>
+              </Link>
+            </div>
+          </Zoom>
           <div className="contactInfo">
             <div>
 
@@ -48,6 +54,10 @@ function Contact() {
                   <a href="https://www.linkedin.com/in/juanpc10/" target="_blank" rel="noopener noreferrer"><LinkedinOutlined /> Linkedin</a>
                 </div>
               </div>
+
+              {/* <div className='contactimg'>
+              
+              </div> */}
 
               {/* <div className="paragraph">
                 <div className="contactTitle">

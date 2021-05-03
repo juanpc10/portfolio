@@ -5,20 +5,6 @@
   height: 97vh;
 }
 
-.navigationMenu {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.navigationMenu h4 {
-  margin-left: 5vw;
-}
-
-.navigationMenu h4:hover {
-  color: rgb(68, 112, 255);
-}
 
 .logoContainer {
   width: 80vw;
@@ -47,5 +33,16 @@
 
 .socialLinks a:hover {
   color:black;
+}
+
+
+
+.bg5 {
+  background-image: url("5.png");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 

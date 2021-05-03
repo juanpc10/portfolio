@@ -1,27 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './home.scss'
-// import './AllPlayers.scss'
-// import IndividualPlayer from './individualPlayer';
-
-// import { GlobalContext } from '../../context/globalState';
-
-// import { Carousel } from 'antd';
-
-import logo from '../images/juanLogo.png';
-
 import 'antd/dist/antd.css';
 
-import { Link } from "@reach/router";
+import Menu from "./menu.js";
+import logo from '../images/juanLogo.png';
 
-import { Avatar, Image } from 'antd';
-// import {GithubOutlined, LinkedinOutlined } from '@ant-design/icons';
-
-import { Modal, Space } from 'antd';
-import { Carousel } from 'antd';
 import { LinkedinOutlined, GithubOutlined } from '@ant-design/icons';
-
-import { Affix, Button } from 'antd';
-
+import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
 
 const contentStyle = {
   height: '250px',
@@ -33,26 +19,23 @@ const contentStyle = {
 };
 
 
-
 function Home() {
   return (
-    <div>
+    <div className="bg5">
       <div className="homeContainer1">
+        <Slide left>
+          <Menu />
+        </Slide>
 
-        <div className="navigationMenu">
-          <Link to="/"><h4>Home</h4></Link>
-          <Link to="/about"><h4>About</h4></Link>
-          <Link to="/experience"><h4>Experience</h4></Link>
-          <Link to="contact"><h4>Contact</h4></Link>
-        </div>
-
-        <div className="logoContainer">
-          <img src={logo} alt='juanLogo'></img>
-          <div className="socialLinks">
-            <a href="https://www.linkedin.com/in/juanpc10/" target="_blank" rel="noopener noreferrer"><LinkedinOutlined /></a>
-            <a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>
+        <Zoom>
+          <div className="logoContainer">
+            <img src={logo} alt='juanLogo'></img>
+            <div className="socialLinks">
+              <a href="https://www.linkedin.com/in/juanpc10/" target="_blank" rel="noopener noreferrer"><LinkedinOutlined /></a>
+              <a href="https://github.com/juanpc10" target="_blank" rel="noopener noreferrer"><GithubOutlined /></a>
+            </div>
           </div>
-        </div>
+        </Zoom>
 
       </div>
       

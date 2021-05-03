@@ -1,156 +1,113 @@
 
-
-.aboutPage {
+.experienceContainer {
   display: flex;
   height: 93vh;
 }
 
-.aboutContainer {
-  width: 80vw;
-  height: 100%;
-  margin-left: 5vw;
+.projectsPageContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.logoContainer2 {        ///juanlogo
+.logoExpContainer {
   width: 80vw;
+  height: 15vh;
   display: flex;
   justify-content: center;
 }
-.logoContainer2 img {
+
+.logoExpContainer img {
  width: 150px;
  height: 150px;
  object-fit: scale-down;
 }
 
-
-
-
-
-
-.aboutContent {
-  width: 80vw;
-  height: 100%;
-}
-.headerAbout {
-  display: flex;
-  justify-content: center;
+.projectsScrollContainer {
+  height: 75vh;
+  overflow-y: scroll;
 }
 
 
-.experience {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-size: 18px;
-  font-weight: 500;
+
+.projectsContainer {
+  height: 93vh;
 }
 
-.aboutText {
+.projectCategory {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.projects {
   display: flex;
   flex-direction: row;
+  width: 85vw;
+  height: 320px;
   overflow-x: scroll;
-  justify-content: space-around;
-
 }
 
-.logos {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 140px;
-}
- .logos:hover {
-   cursor: pointer;
- }
-
-
- .logoContainer3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.logoContainer3 img {
- width: 150px;
- height: 150px;
- object-fit: scale-down;
+.singleproject {
+  width: 400px;
+  margin-right: 40px;
+  margin-left: 20px;
 }
 
-
-
- .logoTech {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 140px;
-  transition: all .2s ease-out;
+#todolist {
+  margin-left: 100px;
+  padding-right: 10px;
 }
- .technologies {
-   display: flex;
-   justify-content: space-around;
-   overflow-x: scroll;
- }
 
-
-
-
-.affixContainer {
-  display: flex;
-  justify-content: flex-end;
+#candidates {
+  padding-right: 10px;
 }
+
+#mongoose {
+  padding-right: 10px;
+}
+
+#linkedlist {
+  padding-right: 450px; 
+}
+
+
 .contactButton {
   color: white;
   background-color: rgb(68, 112, 255);
   border: none;
 }
 
+.contactButton:hover {
+  color: rgb(68, 112, 255);;
+  background-color: white;
+  border: none;
+}
 
 
 
-
-
-.wrapper {
+.footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 30vw;
+  justify-content: space-around;
 }
-.slider {
-  width: 1000px;
-  height: 200px;
-  position: relative;
-  background: white;
-  display: flex;
-  overflow: hidden;
-}
-.slide {
-  height: 200px;
-  display: flex;
-  align-items: center;
-  animation: slideshow 18s linear infinite;
-}
-@keyframes slideshow {
-  0% {transform: translateX(0);}
-  100% {transform: translateX(-100%);}
-}
-.slider::before, .slider::after {
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  content: "";
-  background: linear-gradient(to right, white 0%, rgba(255,255,255,0) 100%);
-  z-index: 2;
-}
-.slider::before {
-  left: 0;
-  top: 0;
-}
-.slider::after {
-  right:0;
-  top:0;
-  transform: rotateZ(180deg);
+
+.footer p {
+  font-size: .6rem;
 }
 
 
+.ant-card-actions:hover .anticon:hover {
+  color: rgb(68, 112, 255);
+}
+
+
+
+
+.bg2 {
+  background-image: url("2.png");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
 

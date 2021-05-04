@@ -8,6 +8,9 @@ import logo from '../images/juanLogo.png';
 
 import { Link } from "@reach/router";
 
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { CopyOutlined } from '@ant-design/icons';
+
 import {LinkedinOutlined, MailOutlined, PhoneOutlined } from '@ant-design/icons';
 
 import Zoom from 'react-reveal/Zoom';
@@ -16,6 +19,15 @@ import Slide from 'react-reveal/Slide';
 
 function Contact() {
   const [bottom, setBottom] = useState(10);
+  const [isCopied, setIsCopied] = useState(false);
+
+  const codeSnippet = `juancarrillodev@gmail.com`;
+  const onCopyText = () => {
+    setIsCopied(true);
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 1000);
+  };
   return (
     <div>
       <div className="contactPage contactimg">
@@ -35,19 +47,38 @@ function Contact() {
           </Zoom>
           <div className="contactInfo">
             <div>
-
               <div className="paragraph">
                 <div className="contactTitle">
-                  <h4>Pimary form of communication:</h4>
+                  <h4>Schedule A Meeting With Me</h4>
                 </div>
                 <div className="contactTitle">
-                  <p><MailOutlined /> juanp23carrillo@gmail.com</p>
+                  <a className="calendlyLink" href="https://calendly.com/juancarrillodev/30min" target="_blank" rel="noopener noreferrer">https://calendly.com/juancarrillodev/30min</a>
                 </div>
               </div>
 
               <div className="paragraph">
                 <div className="contactTitle">
-                  <h4>Secondary form of communication:</h4>
+                  <h4>Send Me An Email</h4>
+                </div>
+                <div className="contactTitle">
+
+                  <div className="container">
+                    <div className="code-snippet">
+                      <div className="code-section">
+                        <MailOutlined />
+                          {/* <div className="copyarea" text={codeSnippet} onCopy={onCopyText}> */}
+                            <div className="emaildiv">juancarrillodev@gmail.com</div><div className="copyicondiv"><CopyToClipboard text={codeSnippet} onCopy={onCopyText}><span>{isCopied ? <div className="copiedtext">Copied!</div> : <CopyOutlined />}</span></CopyToClipboard></div>
+                          {/* </div> */}
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="paragraph">
+                <div className="contactTitle">
+                  <h4>Secondary Form Of Communication</h4>
                 </div>
                 <div className="secondaryInfo">
                   <p><PhoneOutlined /> +1(928) 4874 677</p>

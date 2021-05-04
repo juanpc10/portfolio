@@ -43,3 +43,45 @@
   background-size: cover;
   background-position: center;
 }
+
+
+.calendlyLink {
+  color:rgb(68, 112, 255);
+}
+
+.code-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.emaildiv {
+  margin-left: 10px;
+  // background-color: blueviolet;
+}
+
+.copyicondiv {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
+.copyicondiv:hover {
+  cursor: pointer;
+  color: rgb(68, 112, 255);
+  // .contactTitle {
+  //   background-color: red;
+  // }
+}
+
+// .copyarea {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.copiedtext {
+  cursor: default;
+  color: rgb(68, 112, 255);
+}

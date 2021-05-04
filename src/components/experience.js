@@ -14,7 +14,7 @@ import logoBuckeye from '../images/logoBuckeyee.png';
 import mongoDB from '../images/mongodb.png';
 import reactLogo from '../images/react-logo.jpeg';
 import nodeLogo from '../images/nodejs.png';
-import expressLogo from '../images/express.png';
+import expressLogo from '../images/express-nobg.png';
 import graphqlLogo from '../images/graphql.png';
 import mysqlLogo from '../images/mysql3.png';
 import postgresqlLogo from '../images/postgresql.png';

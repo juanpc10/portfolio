@@ -29,12 +29,12 @@ import Mongodb from '../images/mongodb.png';
 import Mongoose from '../images/mongoose.jpeg';
 // import Redis from '../images/redis.png';
 
-import MishiMishis from '../images/mishimishis2.png';
-import NuevaVida from '../images/nuevavida2.jpg';
-import Intromar from '../images/intromar2.jpg';
-import Weiqilabs from '../images/weiqi2.png';
-import Causeffct from '../images/causeffct2.jpg';
-import Rewrams2 from '../images/rewrams2.png';
+import MishiMishis from '../images/mishimishis.png';
+import NuevaVida from '../images/nuevavidaboards.png';
+import Intromar from '../images/intromar.png';
+import Weiqilabs from '../images/weiqilabs.png';
+import Causeffct from '../images/causeffct.jpg';
+import Rewrams2 from '../images/logoRewrams2.png';
 
 import CodingQueens from '../images/codingqueens.jpeg';
 import Bigonotation from '../images/bigonotation.jpeg';
@@ -597,33 +597,33 @@ function Experience() {
                 </Card>
               </div> */}
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 150 }} cover={<img alt="example" src={MishiMishis} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Mishi Mishis" description="This is the description"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={MishiMishis} />} actions={[<a href="https://mishimishis.com/" target="_blank" rel="noopener noreferrer"><FundProjectionScreenOutlined /></a>]}>
+                  <Meta title="Mishi Mishis" description="Ecommerce store for meme apparel and the most trending sticker images"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 180 }} cover={<img alt="example" src={NuevaVida} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Nueva Vida Boards" description="This is the description"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={NuevaVida} />} actions={[<a href="https://nuevavidaboards.com/" target="_blank" rel="noopener noreferrer"><FundProjectionScreenOutlined /></a>]}>
+                  <Meta title="Nueva Vida Boards" description="Ecommerce store for customized skateboards"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 320 }} cover={<img alt="example" src={Intromar} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Intromar Corporate" description="This is the description"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={Intromar} />} actions={[<a href="http://intromar.com.mx/" target="_blank" rel="noopener noreferrer"><FundProjectionScreenOutlined /></a>]}>
+                  <Meta title="Intromar Corporate" description="Corporative web page for the largest shrimp producer in Mexico"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 200 }} cover={<img alt="example" src={Weiqilabs} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Weiqilabs" description="This is the description"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={Weiqilabs} />} actions={[<a href="https://weiqilabs.com/" target="_blank" rel="noopener noreferrer"><FundProjectionScreenOutlined /></a>]}>
+                  <Meta title="Weiqilabs" description="Ecommerce store for chinese medicine in Mexico"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small" style={{ width: 200 }} cover={<img alt="example" src={Causeffct} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Cause Effct" description="This is the description"/>
+                <Card hoverable bordered={false} size="small" style={{ width: 300 }} cover={<img alt="example" src={Causeffct} />} actions={[<a href="https://causeffct.com/" target="_blank" rel="noopener noreferrer"><FundProjectionScreenOutlined /></a>]}>
+                  <Meta title="Cause Effct" description="Ecommerce store for fashion apparel brand"/>
                 </Card>
               </div>
               <div className="singleproject">
-                <Card hoverable bordered={false} size="small"  style={{ width: 200 }} cover={<img alt="example" src={Rewrams2} />} actions={[<FundProjectionScreenOutlined />,<GithubOutlined />,<EllipsisOutlined key="ellipsis" />,]}>
-                  <Meta title="Rewrams" description="This is the description"/>
+                <Card hoverable bordered={false} size="small"  style={{ width: 300 }} cover={<img alt="example" src={Rewrams2} />} actions={[<a href="https://rewrams.com/" target="_blank" rel="noopener noreferrer"><FundProjectionScreenOutlined /></a>]}>
+                  <Meta title="Rewrams" description="Ecommerce store for Rewrams marketing services"/>
                 </Card>
               </div>          
             </div>

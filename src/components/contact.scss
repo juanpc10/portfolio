@@ -7,17 +7,17 @@
 .contactInfo {
   margin-top: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .contactTitle {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .secondaryInfo {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   width: 300px;
 }
 
@@ -30,13 +30,12 @@
 }
 
 .paragraph {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 
 .contactimg {
   background-image: url("1.png");
-  // background-color: red;
   position: fixed;
   min-width: 100%;
   min-height: 100%;
@@ -58,30 +57,40 @@
 
 .emaildiv {
   margin-left: 10px;
-  // background-color: blueviolet;
 }
 
 .copyicondiv {
-  width: 60px;
+  margin-left: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .copyicondiv:hover {
   cursor: pointer;
   color: rgb(68, 112, 255);
-  // .contactTitle {
-  //   background-color: red;
-  // }
 }
 
-// .copyarea {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   align-items: center;
-// }
 
 .copiedtext {
   cursor: default;
   color: rgb(68, 112, 255);
+}
+
+
+.leftScheduleMeeting {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+
+}
+
+.schedulemeetingInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+.rightContactInfo {
+  margin-right: 100px;
 }

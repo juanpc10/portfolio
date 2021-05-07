@@ -51,9 +51,9 @@ function About() {
             <img src={logoConcredito} alt='Logo Concredito'></img>
           </div>
           <p>Web application programming using PHP, JAVA and other technologies.</p>
-          <p>Development using MVC or MVVM software architecture, software analysis and design.</p>
-          <p>Creating stored procedures, functions, tables, indexes, and optimized queries using MySQL.</p>
+          <p>Development of stored procedures, functions, tables, indexes, and optimized queries using MySQL. </p>
           <p>Integration of REST API services, Redis, GitLab, NodeJS, MongoDB and analysis of customer requirements.</p>
+          <p>Concredito is a finance company which grants a line of credit to clients (distributors). Distributors may grant credits to third parties , who will then be their own customers. ConCrédito will tell distributors how much money to charge their customers and will generate payment receipts for them. Finally, the company will give a percentage of profit to the distributors for each customer obtained.</p>
         </div>       
       ),
     });
@@ -73,9 +73,9 @@ function About() {
             <h4>(Nov 2020- Apr 2021)</h4>
             <img src={logoNW} alt='Logo Northwest'></img>
           </div>
-          <p>Responsible for contacting and showing progress to the client either in person or by video call depending on the project, as well as checking the progress of the programmers in the project day by day, and weekly; adjusting to customer changes and ensuring changes are correct for production. Correcting errors and prioritizing the necessary changes according to importance and required date, planning which tasks are the most important throughout the week and day by day. Record and document changes made, as well as the working hours of each programmer and the estimated hours for sprints.</p>
+          <p>Responsible for presenting progress to clients, as well as checking the progress of developers. Supervised corrections and prioritized the necessary modifications according to importance and required dates for production using agile development. Planned and estimated the hours for sprints, documented the working hours of developers, project modifications, and the tasks accomplished.</p>
           <p>Northwest is a company dedicated to custom software development; from mobile applications to web pages, ecommerce stores, points of sales, custom internal systems, and mobile applications.</p>
-          <p>Achievements: I managed to finish projects of which were already in an advanced stage of development and tight in terms of expectations and delivery dates.</p>
+          <p>Achievements: Managed to finish multiple advanced projects in critical stages of development, contract terms, and dates.</p>
         </div>        
       ),
     });
@@ -94,7 +94,7 @@ function About() {
             <img src={logoRewrams} alt='Logo Rewrams'></img>
             <h4>(Jul 2020- Nov 2020)</h4>
           </div>
-          <p>Plan morning activities for me and partner, investigate how to perform the necessary functionalities, test the incorporation of the new functionalities, correct errors of the new functions, explore possible secondary problems, and in the evening have another meeting to discuss the next day's tasks and talk about the day's results. During the week we talk about short and long-term goals that are constantly being redefined depending on progress.</p>
+          <p>Responsible for planning activities for the team, investigating how to perform the necessary functionalities, test the incorporation of the new functions, correct errors of the new features, explore possible secondary problems, and in the evening have another meeting to discuss the next day's tasks and talk about the day's results. During the week we talk about short and long-term goals that are constantly being redefined depending on progress.</p>
           <p>Rewrams is a startup in its initial growth phase dedicated to the automation of coupon delivery depending on the interaction between Instagram users and the advertising they give to businesses connected to the application.</p>
           <p>Achievements: We were able to meet multiple goals of proposed functionalities such as automating our application by deploying microservices on the heroku platform. We were also able to prospect and obtain clients.</p>
         </div>        
